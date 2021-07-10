@@ -117,6 +117,7 @@ textarea {
   font-weight: var(--secondary-font-weigth);
 }
 .overscroll {
+  margin-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -136,7 +137,6 @@ textarea {
   min-width: 200px;
   min-height: 290px;
   margin: 0 15px;
-  margin-bottom: 30px;
   transition: 450ms all;
   transform-origin: center left;
   padding: 40px 0;
