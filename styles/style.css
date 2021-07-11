@@ -1,7 +1,7 @@
 :root {
   --backgroung-color: #8f57fd;
   --min-width: 320px;
-  --max-width: 1800px;
+  --max-width: 2000px;
   --font-color: #ffffff;
   --font-family: "Muli", sans-serif;
   --main-font-weigth: 700;
@@ -15,7 +15,6 @@
 }
 html {
   font-size: 62.5%;
-  overflow-y: scroll;
 }
 ul {
   list-style: none;
@@ -32,8 +31,6 @@ body {
   min-width: var(--min-width);
   max-width: var(--max-width);
   font-family: var(--font-family);
-  margin-right: calc(100vw - 100%);
-  margin-right: calc(100vw - 100%);
 }
 header {
   padding: 15px 15px 0 15px;
@@ -214,7 +211,7 @@ textarea {
 }
 ::-webkit-scrollbar
 {
-  width: 0px;
+  display: none;
 }
 .overscroll-title
 {
@@ -230,6 +227,7 @@ footer
 }
 hr
 {
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 .contact-list
