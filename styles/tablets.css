@@ -1,0 +1,56 @@
+header {
+  padding: 30px 30px 0 30px;
+}
+.header__logo {
+  width: 195px;
+  height: 63.6px;
+}
+.header__menu--profile img {
+  width: 60px;
+  height: 60px;
+}
+.header__menu--profile p {
+  font-size: 2.25rem;
+}
+.header__menu ul a {
+  font-size: 2.2rem;
+}
+.buscador-contenedor {
+  margin-top: 70px;
+}
+.buscador-contenedor__titulo {
+  font-size: 3rem;
+}
+.buscador-contenedor__input {
+  margin-top: 40px;
+  height: 60px;
+  border-radius: 30px;
+}
+input,
+select,
+textarea {
+  font-size: 2rem;
+}
+
+::placeholder {
+  font-size: 2rem;
+}
+.overscroll-title {
+  font-size: 2.5rem;
+}
+.overscroll__container .overscroll__box {
+  min-width: 230px;
+  height: 241.5px;
+}
+.overscroll__container:hover .overscroll__box {
+  margin-top: 66.4px;
+  margin-bottom: 58.1px;
+}
+.overscroll__container:hover .overscroll__box:hover {
+  margin-top: 66.4px;
+  margin-bottom: 58.1px;
+}
+.contact-list>li,.contact-list a
+{
+  font-size: 2.5rem;
+}

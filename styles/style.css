@@ -117,9 +117,11 @@ textarea {
   font-weight: var(--secondary-font-weigth);
 }
 .overscroll {
-  margin-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .overscroll:nth-of-type(2)
 {
@@ -127,6 +129,7 @@ textarea {
 }
 .overscroll__container {
   display: flex;
+  flex-shrink: 0;
   white-space: nowrap;
   overflow-x: auto;
   overscroll-behavior-x: contain;
@@ -235,7 +238,7 @@ hr
   min-width: 320px;
   padding-left: 40px;
   width: 100%;
-  display: grid;
+  text-align: center;
 }
 .contact-list>li,.contact-list a
 {
