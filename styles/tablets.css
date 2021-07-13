@@ -47,11 +47,11 @@ textarea {
   min-width: 230px;
   height: 241.5px;
 }
-.overscroll__container:hover .overscroll__box {
+.container-computador {
   margin-top: 66.4px;
   margin-bottom: 58.1px;
 }
-.overscroll__container:hover .overscroll__box:hover {
+.container-hover-computador {
   margin-top: 66.4px;
   margin-bottom: 58.1px;
 }
