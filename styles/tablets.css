@@ -19,11 +19,11 @@ header {
   margin-top: 70px;
 }
 .buscador-contenedor__titulo {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .buscador-contenedor__input {
   margin-top: 40px;
-  height: 60px;
+  height: 50px;
   border-radius: 30px;
 }
 input,
@@ -34,6 +34,11 @@ textarea {
 
 ::placeholder {
   font-size: 2rem;
+}
+.overscroll__container {
+  overflow-x: scroll;
+  overscroll-behavior-x: none;
+  scroll-snap-type: none;
 }
 .overscroll-title {
   font-size: 2.5rem;
@@ -50,7 +55,18 @@ textarea {
   margin-top: 66.4px;
   margin-bottom: 58.1px;
 }
-.contact-list>li,.contact-list a
-{
+.contact-list > li,
+.contact-list a {
   font-size: 2.5rem;
+}
+/* .overscroll {
+  margin-bottom: 120px;
+} */
+::-webkit-scrollbar{
+  height: 150px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: white;
+  border: 70px solid #8f57fd;
+  border-radius: 999px;
 }

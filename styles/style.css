@@ -1,7 +1,7 @@
 :root {
   --backgroung-color: #8f57fd;
   --min-width: 320px;
-  --max-width: 2000px;
+  --max-width: 1800px;
   --font-color: #ffffff;
   --font-family: "Muli", sans-serif;
   --main-font-weigth: 700;
@@ -31,6 +31,7 @@ body {
   min-width: var(--min-width);
   max-width: var(--max-width);
   font-family: var(--font-family);
+  margin: 0 auto;
 }
 header {
   padding: 15px 15px 0 15px;
@@ -212,10 +213,10 @@ textarea {
   background-position: center;
   transition: 450ms opacity;
 }
-::-webkit-scrollbar
+/* ::-webkit-scrollbar
 {
-  display: none;
-}
+  width: 0;
+} */
 .overscroll-title
 {
   margin-left: 15px;
