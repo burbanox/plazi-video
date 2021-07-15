@@ -158,6 +158,27 @@ textarea {
   background-size: cover;
   background-position: center;
 }
+.overscroll__box:nth-of-type(2n) .overscroll__box-item
+{
+  background: url("https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/senalradio/articulo-noticia/galeriaimagen/diana_burco_portada.jpg?h=cfb89272&itok=ZPwj8Y09");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overscroll__box:nth-of-type(4n) .overscroll__box-item
+{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRcEO6rzLyyVQG9ovyHodgg2OJtn_LLxAtIQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overscroll__box:nth-of-type(3n) .overscroll__box-item
+{
+  background: url("https://www.latercera.com/resizer/sxKZWt9OD0meXI4h_hUrfr2vRZ8=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/P6KRQJV72ZECPLDIYTUH7HKBXU.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .overscroll__reproduction-icons,
 .overscroll__box-item>.overscroll__text-container
 {
@@ -214,6 +235,30 @@ textarea {
   background-size: cover;
   background-position: center;
   transition: 450ms opacity;
+}
+.overscroll__box:hover:nth-of-type(2n) .overscroll__box-item
+{
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%),
+  url("https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/senalradio/articulo-noticia/galeriaimagen/diana_burco_portada.jpg?h=cfb89272&itok=ZPwj8Y09");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overscroll__box:hover:nth-of-type(4n) .overscroll__box-item
+{
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%),
+  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRcEO6rzLyyVQG9ovyHodgg2OJtn_LLxAtIQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overscroll__box:hover:nth-of-type(3n) .overscroll__box-item
+{
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%),
+  url("https://www.latercera.com/resizer/sxKZWt9OD0meXI4h_hUrfr2vRZ8=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/P6KRQJV72ZECPLDIYTUH7HKBXU.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /* ::-webkit-scrollbar
 {
