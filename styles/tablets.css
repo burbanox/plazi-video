@@ -47,11 +47,7 @@ textarea {
   min-width: 230px;
   height: 241.5px;
 }
-.container-computador {
-  margin-top: 66.4px;
-  margin-bottom: 58.1px;
-}
-.container-hover-computador {
+.margenes{
   margin-top: 66.4px;
   margin-bottom: 58.1px;
 }
@@ -69,4 +65,8 @@ textarea {
   background-color: white;
   border: 70px solid #8f57fd;
   border-radius: 999px;
+}
+::-webkit-scrollbar:vertical
+{
+  display: none;
 }
