@@ -51,6 +51,10 @@ textarea {
   margin-top: 66.4px;
   margin-bottom: 58.1px;
 }
+.overscroll__box:last-of-type
+{
+  margin-right: 80px;
+}
 .contact-list > li,
 .contact-list a {
   font-size: 2.5rem;
