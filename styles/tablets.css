@@ -55,6 +55,10 @@ textarea {
 {
   margin-right: 80px;
 }
+.contact-list
+{
+  text-align: unset;
+}
 .contact-list > li,
 .contact-list a {
   font-size: 2.5rem;

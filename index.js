@@ -43,12 +43,10 @@ function verdadero() {
   let siblings = getSiblings(document.querySelector(`.${hijoClass}`));
 
   this.classList.add("container-hover-movil", "margenes");
-  console.log(this.classList.contains("margenes"))
 
   for (let i = 0; i < siblings.length; i++) {
     if (siblings[i] != this) {
       siblings[i].classList.add("container-movil", "margenes");
-      console.log(siblings[i].classList.contains("margenes"))
     }
   }
 }

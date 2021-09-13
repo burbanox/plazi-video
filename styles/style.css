@@ -274,22 +274,77 @@ textarea {
 }
 footer
 {
-  margin: 60px 0;
+  padding-top: 60px;
+  color: var(--font-color);
 }
 hr
 {
   margin-top: 80px;
   margin-bottom: 40px;
 }
-.contact-list
+.main-footer-content
 {
-  min-width: 320px;
-  width: 100%;
-  text-align: center;
+  margin-bottom: 50px;
 }
-.contact-list>li,.contact-list a
+.main-footer-content div
 {
-  color: var(--font-color);
+  margin-bottom: 30px;
+}
+.main-footer-content,.info-4
+{
+  padding-left: 30px;
+}
+.main-footer-content h3
+{
+  font-size: 2.0rem;
+}
+.main-footer-content p,
+.main-footer-content a
+{
   font-size: 1.6rem;
-  margin-bottom: 15px;
+  color: var(--font-color);
+}
+.info-2-img-container
+{
+  width: max-content;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--font-color);
+}
+.info-2 img
+{
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+.info-4
+{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.info-4 a
+{
+  text-decoration: none;
+}
+.info-4 a
+{
+  color: #dbdbe2;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.info-3 a
+{
+  display: block;
+}
+.info-1 p ,.info-3 a
+{
+  padding: 15px 0px 0px 20px;
 }
