@@ -55,14 +55,7 @@ textarea {
 {
   margin-right: 80px;
 }
-.contact-list
-{
-  text-align: unset;
-}
-.contact-list > li,
-.contact-list a {
-  font-size: 2.5rem;
-}
+
 /* .overscroll {
   margin-bottom: 120px;
 } */
@@ -77,4 +70,14 @@ textarea {
 ::-webkit-scrollbar:vertical
 {
   display: none;
+}
+.main-footer-content
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+.info-4
+{
+  margin-bottom: 30px;
 }
